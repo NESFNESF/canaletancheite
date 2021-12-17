@@ -17,6 +17,8 @@
     <link href="css/prettyPhoto.css" rel="stylesheet">
     <link href="css/jquery.bxslider.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
+      <link href="css/canal.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -37,6 +39,22 @@
 	<!-- End loader page -->
 
 
+        <div class="icon_div">
+
+<ul>
+
+
+    <li><a href="#" class="fa fa-facebook"></a></li>
+    <li><a href="#" class="fa fa-twitter"></a></li>
+    <li><a href="#" class="fa fa-linkedin"></a></li>
+    <li><a href="#" class="fa fa-instagram"></a></li>
+    <li><a href="#" class="fa fa-google"></a></li>
+    <li><a href="#" class="fa fa-whatsapp"></a></li>
+
+
+
+</ul>
+        </div>
 
 	<!-- Primary Page Layout
         ========================================================================= -->
@@ -45,15 +63,17 @@
 
 		<div id="slides_background_home">
 			<div class="slides-container">
-				<div class="img5 home_animated"></div>
+				<div class="img5"></div>
 			</div>
 		</div>
 
 		<div class="container main">
-			<div class="fullbg_bigtxt">SERTIN</div>
-			<div class="fullbg_smalltxt">Awsome One Page HTML Templates</div>
-			<div class="text_color fullgb_extratxt_span">WE</div><div class="fullgb_extratxt"> MAKE SMART DESIGN</div>
-		</div>
+
+<div class="fullbg_bigtxt">SOLUTION ANTI-INFILTRATION TOITURE ETANCHEITE</div>
+			<div class="fullbg_smalltxt">NOUS METTONS TOUT EN OEUVRE POUR METTRE NOTRE SAVOIR FAIRE AU SERVICE DE VOTRE CONFORT</div>
+			<div class="text_color fullgb_extratxt_span">CE</div><div class="fullgb_extratxt">CANAL ETANCHEITE</div>
+
+					</div>
 
 	</div>
 
@@ -63,7 +83,7 @@
 
 	<!-- menu
         ========================================================================= -->
-    <div class="menu_white1">
+  <div class="menu_dark2">
 	    <div class="navsticky">
 			<nav class="navbar navbar-topaz" role="navigation">
 			  <div class="container">
@@ -75,66 +95,39 @@
 			        <span class="icon-bar"></span>
 			        <span class="icon-bar"></span>
 			      </button>
-			      <a class="navbar-brand" href="#"><img src="img/logo.png" alt="SERTIN"></a>
 			    </div>
 
 			    <!-- Collect the nav links, forms, and other content for toggling -->
-			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			     <div class="menu_dark2_logo_center">
+			      	<a class="navbar-brand" href="#"><img src="img/logo.png" alt="SERTIN"></a>
+			      </div>
+			    <div class="collapse navbar-collapse menu_dark2_navbar" id="bs-example-navbar-collapse-1">
+			      <ul class="nav navbar-nav navbar-left">
+			      	<li><a href="index">Accueil</a></li>
+			        <li><a href="index.html#team">Expérience</a></li>
+			         <li class="dropdown">
+			          <a href="index.html#" class="dropdown-toggle" data-toggle="dropdown">Activités <b class="caret"></b></a>
+			          <ul class="dropdown-menu">
+			            <li><a href="#">Diagnostic de l’état du patrimoine</a></li>
+			            <li><a href="#">Entretien toitures</a></li>
+			            <li><a href="#">Recherche d’infiltrations</a></li>
+                         <li><a href="#">Réfection des toitures terrasses</a></li>
+			            <li><a href="#">Sécurisation des toitures</a></li>
+			          </ul>
+			        </li>
+			      </ul>
+
 			      <ul class="nav navbar-nav navbar-right">
-			       <li class="dropdown">
-			          <a href="#about" class="dropdown-toggle" data-toggle="dropdown">HELLO <b class="caret"></b></a>
-			          <ul class="dropdown-menu">
-			            <li><a href="index.html" class="linkz_transition">Full Image Background</a></li>
-			            <li><a href="index_2.html" class="linkz_transition">Full Parallax Slider</a></li>
-			            <li><a href="index_3.html" class="linkz_transition">Full Video Background</a></li>
-			            <li><a href="index_4.html" class="linkz_transition">Full Animated Background</a></li>
-			            <li><a href="index_5.html" class="linkz_transition">Full Pattern Background</a></li>
-			            <li><a href="index_6.html" class="linkz_transition">Full Solid Background</a></li>
-			          </ul>
-			        </li>
-			        <li><a href="#team">TEAM</a></li>
-			        <li><a href="#services">SERVICES</a></li>
+			     	<li><a href="index.html#blog">Contact</a></li>
 			        <li class="dropdown">
-			          <a href="#portfolio" class="dropdown-toggle" data-toggle="dropdown">PORTFOLIO <b class="caret"></b></a>
+			          <a href="index.html#" class="dropdown-toggle" data-toggle="dropdown">Actalités <b class="caret"></b></a>
 			          <ul class="dropdown-menu">
-			            <li><a href="portfolio-item-1.html" class="linkz_transition">Portfolio Item 1</a></li>
-			            <li><a href="portfolio-item-2.html" class="linkz_transition">Portfolio Item 2</a></li>
-			            <li><a href="portfolio-item-3.html" class="linkz_transition">Portfolio Item 3</a></li>
-			            <li><a href="portfolio-item-4.html" class="linkz_transition">Portfolio Item 4</a></li>
-			            <li><a href="portfolio-item-5.html" class="linkz_transition">Portfolio Item 5</a></li>
+			            <li><a href="#">Avis clients</a></li>
+			            <li><a href="#">Evènements</a></li>
+			            <li><a href="#">Réalisations en cours</a></li>
 			          </ul>
 			        </li>
-			        <li class="dropdown">
-			          <a href="#blog" class="dropdown-toggle" data-toggle="dropdown">BLOG <b class="caret"></b></a>
-			          <ul class="dropdown-menu">
-			            <li><a href="blog-masonry-3-columns.html" class="linkz_transition">Blog - Masonry 3 Cols</a></li>
-			            <li><a href="blog-masonry-2-columns.html" class="linkz_transition">Blog - Masonry 2 Cols</a></li>
-			            <li><a href="blog-masonry-2-columns-sidebar.html" class="linkz_transition">Blog - Masonry 2 Cols + Sidebar</a></li>
-			            <li><a href="blog.html" class="linkz_transition">Blog - Regular Layout</a></li>
-			            <li><a href="blog-single.html" class="linkz_transition">Blog - Single</a></li>
-			          </ul>
-			        </li>
-			        <li class="dropdown">
-			          <a href="#testimonials" class="dropdown-toggle" data-toggle="dropdown">ELEMENTS <b class="caret"></b></a>
-			          <ul class="dropdown-menu">
-			            <li><a href="shortcodes.html" class="linkz_transition">Shortcodes</a></li>
-			            <li><a href="animations.html" class="linkz_transition">Animations</a></li>
-			            <li><a href="icons.html" class="linkz_transition">Icons</a></li>
-			            <li><a href="about.html" class="linkz_transition">About Us Sections</a></li>
-			            <li><a href="contact.html" class="linkz_transition">Contact Sections</a></li>
-			            <li><a href="subscribe.html" class="linkz_transition">Subscribe Sections</a></li>
-			            <li><a href="menu.html" class="linkz_transition">Menu Sections</a></li>
-			            <li><a href="footer.html" class="linkz_transition">Footer Sections</a></li>
-			            <li><a href="price.html" class="linkz_transition">Price Sections</a></li>
-			            <li><a href="product.html" class="linkz_transition">Product Sections</a></li>
-			            <li><a href="service.html" class="linkz_transition">Services Sections</a></li>
-			            <li><a href="skills.html" class="linkz_transition">Skills Sections</a></li>
-			            <li><a href="static.html" class="linkz_transition">Static Sections</a></li>
-			            <li><a href="team.html" class="linkz_transition">Team Sections</a></li>
-			            <li><a href="testimonial.html" class="linkz_transition">Tetimonial Sections</a></li>
-			          </ul>
-			        </li>
-			        <li><a href="#contact">CONTACT</a></li>
+			        <li><a href="index.html#contact">Nos réalisations</a></li>
 			      </ul>
 			    </div><!-- /.navbar-collapse -->
 			  </div><!-- /.container -->
@@ -146,17 +139,56 @@
 
 	<!-- About Us Section
         ========================================================================= -->
-	<section id="about" class="container">
+		<section id="about" class="container">
 		<div class="big_title">
-			<div class="big_title_txt montserrat_font">Discover the secret of Sertin template</div>
+			<div class="big_title_txt montserrat_font">Qui sommes <span class="text_color">Nous</span> ?</div>
 			<div class="text_und_big_title">
-				We are an award winning creative agency based in Wisconsin with a passion for helping our clients grow.
+			<span class="text_color">Canal étanchéité </span>	 est une entreprise spécialisée dans les travaux de rénovation <span class="text_color">d’étanchéité</span>
+dans la région <span class="text_color">Nouvelle Aquitaine </span> et propose une solution globale pour lutter contre les
+<span class="text_color">infiltrations</span> afin de faciliter et d’améliorer votre confort et celui de vos bâtiments.
 			</div>
 			<div class="big_title_txt_separ background_color"></div>
 		</div>
-		<div class="section_content">
-			<div class="about_content">
-				<img src="img/award.png" alt="award">
+		<div class="section_content about_2">
+			<div class="row">
+				<div class="col-md-7">
+					<div class="company_prg1 opaque">
+						<div class="content_big_title">
+							Pourquoi choisir <span class="text_color">Canal étanchéité </span> ?
+
+						</div>
+						<p>
+                            Nous répondons <span class="text_color"> avec satisfaction </span> chaque fois que vous rencontrez un problème : <br>
+                           </p> <ul>
+                                <li><i class="fa fa-circle fa-1x"></i> <strong>Après avoir constaté <span class="text_color"> des craquements , des fissures</span> au niveau de la peinture des murs ou
+du plafond</strong> </li><br>
+                                <li><i class="fa fa-circle fa-1x"></i> <strong>Après un <span class="text_color"> dégât des eaux </span> issu de la toiture terrasse ou des balcons </strong> </li><br>
+                                <li><i class="fa fa-circle fa-1x"></i> <strong>Après avoir observé des <span class="text_color"> traces d’infiltrations ou des auréoles </span> au niveau du plafond ou des
+murs</strong> </li><br>
+
+                                <li><i class="fa fa-circle fa-1x"></i> <strong>Après avoir constaté des<span class="text_color"> fuites </span> dans le logement</strong> </li><br>
+                                <li><i class="fa fa-circle fa-1x"></i> <strong>Après avoir observé des <span class="text_color"> cloques ou des bulles et des fissures </span> sur votre complexe
+<span class="text_color"> d’étanchéité</span> </strong> </li><br>
+                                <li><i class="fa fa-circle fa-1x"></i> <strong>Après des <span class="text_color"> interventions réguliers </span> sur vos toitures</strong> </li><br>
+                                <li><i class="fa fa-circle fa-1x"></i> <strong>Après avoir observé une <span class="text_color"> stagnation </span> d’eau sur la toiture </strong> </li><br>
+                                <li><i class="fa fa-circle fa-1x"></i> <strong>Après avoir constaté que votre terrasse, votre balcon, vos chéneaux et gouttière étaient
+<span class="text_color"> salle ou plein de feuilles </span> </strong> </li><br>
+                            </ul>
+
+
+                        <div class="company_btn">
+							<a href="#" class="content_btn background_color">Demander un devis</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-5 vimeo_video">
+					<div class="slider text-center">
+						<ul class="bxslider">
+							<li><img src="img/about_s3.jpg" class="img-responsive" /></li>
+							<li><img src="img/about_s2.jpg" class="img-responsive" /></li>
+						</ul>
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>
@@ -165,7 +197,7 @@
         ========================================================================= -->
 	<section id="company" class="container">
 		<div class="big_title">
-			<div class="big_title_txt montserrat_font">What they said about us</div>
+			<div class="big_title_txt montserrat_font">Expérience</div>
 			<div class="text_und_big_title">
 				We are an award winning creative agency based in Wisconsin with a passion for helping our clients grow.
 			</div>
@@ -177,19 +209,19 @@
 					<div class="row">
 						<div class="company_img_block company_btn1">
 							<img src="img/company_1.jpg" alt="Consulting" class="img_border">
-							<div class="company_img_desc">Consulting</div>
+							<div class="company_img_desc">Diagnostic de votre patrimoine</div>
 						</div>
 						<div class="company_img_block company_btn2">
 							<img src="img/company_2.jpg" alt="Photography" class="img_border">
-							<div class="company_img_desc">Photography</div>
+							<div class="company_img_desc">Entretien des toitures terrasses</div>
 						</div>
 						<div class="company_img_block company_btn3">
 							<img src="img/company_3.jpg" alt="Web Design" class="img_border">
-							<div class="company_img_desc">Web Design</div>
+							<div class="company_img_desc">Recherche d’infiltrations sur plusieurs techniques</div>
 						</div>
 						<div class="company_img_block company_btn4">
 							<img src="img/company_4.jpg" alt="Advertising" class="img_border">
-							<div class="company_img_desc">Advertising</div>
+							<div class="company_img_desc">Réfection partielle et totale</div>
 						</div>
 					</div>
 				</div>
@@ -201,39 +233,12 @@
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 						<p>Sed ut perspiciatis unde Sorcimenia omnis iste natus irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat cotessa primastera nulla error sit voluptatem accusantium doloremque laudantium.</p>
 						<div class="company_btn">
-							<a href="#" class="content_btn background_color">Check Our Projects</a>
+							<a href="#" class="content_btn background_color">Demander un devis</a>
 						</div>
 					</div>
-					<div class="company_content_parag company_prg2">
-						<div class="content_big_title">
-							Events <span class="text_color">Photography</span>
-						</div>
-						<p>Sed ut perspiciatis unde Sorcimenia omnis iste natus irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat cotessa primastera nulla error sit voluptatem accusantium doloremque laudantium.</p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-						<div class="company_btn">
-							<a href="#" class="content_btn background_color">Check Our Projects</a>
-						</div>
-					</div>
-					<div class="company_content_parag company_prg3">
-						<div class="content_big_title">
-							Web <span class="text_color">Design</span>
-						</div>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-						<p>Sed ut perspiciatis unde Sorcimenia omnis iste natus irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat cotessa primastera nulla error sit voluptatem accusantium doloremque laudantium.</p>
-						<div class="company_btn">
-							<a href="#" class="content_btn background_color">Check Our Projects</a>
-						</div>
-					</div>
-					<div class="company_content_parag company_prg4">
-						<div class="content_big_title">
-							Social <span class="text_color">Advertising</span>
-						</div>
-						<p>Sed ut perspiciatis unde Sorcimenia omnis iste natus irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat cotessa primastera nulla error sit voluptatem accusantium doloremque laudantium.</p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-						<div class="company_btn">
-							<a href="#" class="content_btn background_color">Check Our Projects</a>
-						</div>
-					</div>
+
+
+
 				</div>
 			</div>
 		</div>
@@ -246,7 +251,7 @@
 	<section id="simple_txt_background" class="text-center">
 
 		<div class="big_title_txt_bg">
-			WE CHANGE <span class="text_color">IDEAS</span> TO <span class="text_color"> REALITIES</span>
+			NOUS TRANSFORMONS VOS <span class="text_color">PROBLEMES</span> EN <span class="text_color">SOLTIONS</span>
 		</div>
 		<div class="big_title_txt_separ_bg background_color"></div>
 	</section>
@@ -258,369 +263,133 @@
         ========================================================================= -->
 	<section id="team" class="container">
 		<div class="big_title">
-			<div class="big_title_txt montserrat_font">The secret of a company is the team</div>
-			<div class="text_und_big_title">
-				We are an award winning creative agency based in Wisconsin with a passion for helping our clients grow.
+			<div class="big_title_txt montserrat_font">QAULITé</div>
+            <div class="text_und_big_title">
+
 			</div>
 			<div class="big_title_txt_separ background_color"></div>
 		</div>
-		<div class="section_content">
-			<div class="team_content">
-				<div class="team_img_block team1" data-id="team1">
-					<img src="img/team_1.jpg" alt="Team Member">
-					<div class="team_img_name">Diana <span class="text_color">Cline</span></div>
-				</div>
-				<div class="team_img_block team2" data-id="team2">
-					<img src="img/team_2.jpg" alt="Team Member">
-					<div class="team_img_name">Gladys <span class="text_color">Shirley</span></div>
-				</div>
-				<div class="team_img_block team3" data-id="team3">
-					<img src="img/team_3.jpg" alt="Team Member">
-					<div class="team_img_name">Kenneth <span class="text_color">Coley</span></div>
-				</div>
-				<div class="team_img_block team4" data-id="team4">
-					<img src="img/team_4.jpg" alt="Team Member">
-					<div class="team_img_name">Craig <span class="text_color">Macaulay</span></div>
-				</div>
-				<div class="team_img_block team5" data-id="team5">
-					<img src="img/team_5.jpg" alt="Team Member">
-					<div class="team_img_name">Robert <span class="text_color">Guido</span></div>
-				</div>
-				<div class="team_img_block team6" data-id="team6">
-					<img src="img/team_6.jpg" alt="Team Member">
-					<div class="team_img_name">Catherin <span class="text_color">Pilcher</span></div>
-				</div>
-				<div class="team_img_block team7" data-id="team7">
-					<img src="img/team_9.jpg" alt="Team Member">
-					<div class="team_img_name">Mark <span class="text_color">Fisher</span></div>
-				</div>
-				<div class="team_img_block team8" data-id="team8">
-					<img src="img/team_10.jpg" alt="Team Member">
-					<div class="team_img_name">Thomas <span class="text_color">Fike</span></div>
-				</div>
-				<div class="team_img_block team9" data-id="team9">
-					<img src="img/team_11.jpg" alt="Team Member">
-					<div class="team_img_name">Joshua <span class="text_color">Ross</span></div>
-				</div>
-				<div class="team_img_block team10" data-id="team10">
-					<img src="img/team_12.jpg" alt="Team Member">
-					<div class="team_img_name">Angel <span class="text_color">Williams</span></div>
-				</div>
-
-				<section class="overlay" id="team1">
-					<div class="wrap">
-						<div class="overlay_img">
-							<img src="img/team_1.jpg" alt="Team Member">
-						</div>
-						<div class="overlay_name">Catherin <span class="text_color">Pilcher</span></div>
-						<i class="overlay_sep background_color"></i>
-						<div class="overlay_stitle">Biography:</div>
-						<div class="overlay_p">
-							Catherin makes sculptures and drawings. With the use of appropriated materials which are borrowed from a day-to-day context alva desperatos creates.
-						</div>
-						<div class="overlay_stitle">Follow:</div>
-						<div class="overlay_social">
-							<a href="" class="overlay_social_btn white_btn_hover"><i class="fa fa-facebook"></i> </a>
-							<a href="" class="overlay_social_btn white_btn_hover"><i class="fa fa-twitter"></i> </a>
-							<a href="" class="overlay_social_btn white_btn_hover"><i class="fa fa-google-plus"></i> </a>
-							<a href="" class="overlay_social_btn white_btn_hover"><i class="fa fa-rss"></i> </a>
-						</div>
-					</div>
-					<button class="close">
-						<i class="fa fa-times"></i>
-					</button>
-				</section>
-				<section class="overlay" id="team2">
-					<div class="wrap">
-						<div class="overlay_img">
-							<img src="img/team_2.jpg" alt="Team Member">
-						</div>
-						<div class="overlay_name">Catherin <span class="text_color">Pilcher</span></div>
-						<i class="overlay_sep background_color"></i>
-						<div class="overlay_stitle">Biography:</div>
-						<div class="overlay_p">
-							Catherin makes sculptures and drawings. With the use of appropriated materials which are borrowed from a day-to-day context alva desperatos creates.
-						</div>
-						<div class="overlay_stitle">Follow:</div>
-						<div class="overlay_social">
-							<a href="" class="overlay_social_btn white_btn_hover"><i class="fa fa-facebook"></i> </a>
-							<a href="" class="overlay_social_btn white_btn_hover"><i class="fa fa-twitter"></i> </a>
-							<a href="" class="overlay_social_btn white_btn_hover"><i class="fa fa-google-plus"></i> </a>
-							<a href="" class="overlay_social_btn white_btn_hover"><i class="fa fa-rss"></i> </a>
-						</div>
-					</div>
-					<button class="close">
-						<i class="fa fa-times"></i>
-					</button>
-				</section>
-				<section class="overlay" id="team3">
-					<div class="wrap">
-						<div class="overlay_img">
-							<img src="img/team_3.jpg" alt="Team Member">
-						</div>
-						<div class="overlay_name">Catherin <span class="text_color">Pilcher</span></div>
-						<i class="overlay_sep background_color"></i>
-						<div class="overlay_stitle">Biography:</div>
-						<div class="overlay_p">
-							Catherin makes sculptures and drawings. With the use of appropriated materials which are borrowed from a day-to-day context alva desperatos creates.
-						</div>
-						<div class="overlay_stitle">Follow:</div>
-						<div class="overlay_social">
-							<a href="" class="overlay_social_btn white_btn_hover"><i class="fa fa-facebook"></i> </a>
-							<a href="" class="overlay_social_btn white_btn_hover"><i class="fa fa-twitter"></i> </a>
-							<a href="" class="overlay_social_btn white_btn_hover"><i class="fa fa-google-plus"></i> </a>
-							<a href="" class="overlay_social_btn white_btn_hover"><i class="fa fa-rss"></i> </a>
-						</div>
-					</div>
-					<button class="close">
-						<i class="fa fa-times"></i>
-					</button>
-				</section>
-				<section class="overlay" id="team4">
-					<div class="wrap">
-						<div class="overlay_img">
-							<img src="img/team_4.jpg" alt="Team Member">
-						</div>
-						<div class="overlay_name">Catherin <span class="text_color">Pilcher</span></div>
-						<i class="overlay_sep background_color"></i>
-						<div class="overlay_stitle">Biography:</div>
-						<div class="overlay_p">
-							Catherin makes sculptures and drawings. With the use of appropriated materials which are borrowed from a day-to-day context alva desperatos creates.
-						</div>
-						<div class="overlay_stitle">Follow:</div>
-						<div class="overlay_social">
-							<a href="" class="overlay_social_btn white_btn_hover"><i class="fa fa-facebook"></i> </a>
-							<a href="" class="overlay_social_btn white_btn_hover"><i class="fa fa-twitter"></i> </a>
-							<a href="" class="overlay_social_btn white_btn_hover"><i class="fa fa-google-plus"></i> </a>
-							<a href="" class="overlay_social_btn white_btn_hover"><i class="fa fa-rss"></i> </a>
-						</div>
-					</div>
-					<button class="close">
-						<i class="fa fa-times"></i>
-					</button>
-				</section>
-				<section class="overlay" id="team5">
-					<div class="wrap">
-						<div class="overlay_img">
-							<img src="img/team_5.jpg" alt="Team Member">
-						</div>
-						<div class="overlay_name">Catherin <span class="text_color">Pilcher</span></div>
-						<i class="overlay_sep background_color"></i>
-						<div class="overlay_stitle">Biography:</div>
-						<div class="overlay_p">
-							Catherin makes sculptures and drawings. With the use of appropriated materials which are borrowed from a day-to-day context alva desperatos creates.
-						</div>
-						<div class="overlay_stitle">Follow:</div>
-						<div class="overlay_social">
-							<a href="" class="overlay_social_btn white_btn_hover"><i class="fa fa-facebook"></i> </a>
-							<a href="" class="overlay_social_btn white_btn_hover"><i class="fa fa-twitter"></i> </a>
-							<a href="" class="overlay_social_btn white_btn_hover"><i class="fa fa-google-plus"></i> </a>
-							<a href="" class="overlay_social_btn white_btn_hover"><i class="fa fa-rss"></i> </a>
-						</div>
-					</div>
-					<button class="close">
-						<i class="fa fa-times"></i>
-					</button>
-				</section>
-				<section class="overlay" id="team6">
-					<div class="wrap">
-						<div class="overlay_img">
-							<img src="img/team_6.jpg" alt="Team Member">
-						</div>
-						<div class="overlay_name">Catherin <span class="text_color">Pilcher</span></div>
-						<i class="overlay_sep background_color"></i>
-						<div class="overlay_stitle">Biography:</div>
-						<div class="overlay_p">
-							Catherin makes sculptures and drawings. With the use of appropriated materials which are borrowed from a day-to-day context alva desperatos creates.
-						</div>
-						<div class="overlay_stitle">Follow:</div>
-						<div class="overlay_social">
-							<a href="" class="overlay_social_btn white_btn_hover"><i class="fa fa-facebook"></i> </a>
-							<a href="" class="overlay_social_btn white_btn_hover"><i class="fa fa-twitter"></i> </a>
-							<a href="" class="overlay_social_btn white_btn_hover"><i class="fa fa-google-plus"></i> </a>
-							<a href="" class="overlay_social_btn white_btn_hover"><i class="fa fa-rss"></i> </a>
-						</div>
-					</div>
-					<button class="close">
-						<i class="fa fa-times"></i>
-					</button>
-				</section>
-				<section class="overlay" id="team7">
-					<div class="wrap">
-						<div class="overlay_img">
-							<img src="img/team_9.jpg" alt="Team Member">
-						</div>
-						<div class="overlay_name">Catherin <span class="text_color">Pilcher</span></div>
-						<i class="overlay_sep background_color"></i>
-						<div class="overlay_stitle">Biography:</div>
-						<div class="overlay_p">
-							Catherin makes sculptures and drawings. With the use of appropriated materials which are borrowed from a day-to-day context alva desperatos creates.
-						</div>
-						<div class="overlay_stitle">Follow:</div>
-						<div class="overlay_social">
-							<a href="" class="overlay_social_btn white_btn_hover"><i class="fa fa-facebook"></i> </a>
-							<a href="" class="overlay_social_btn white_btn_hover"><i class="fa fa-twitter"></i> </a>
-							<a href="" class="overlay_social_btn white_btn_hover"><i class="fa fa-google-plus"></i> </a>
-							<a href="" class="overlay_social_btn white_btn_hover"><i class="fa fa-rss"></i> </a>
-						</div>
-					</div>
-					<button class="close">
-						<i class="fa fa-times"></i>
-					</button>
-				</section>
-				<section class="overlay" id="team8">
-					<div class="wrap">
-						<div class="overlay_img">
-							<img src="img/team_10.jpg" alt="Team Member">
-						</div>
-						<div class="overlay_name">Catherin <span class="text_color">Pilcher</span></div>
-						<i class="overlay_sep background_color"></i>
-						<div class="overlay_stitle">Biography:</div>
-						<div class="overlay_p">
-							Catherin makes sculptures and drawings. With the use of appropriated materials which are borrowed from a day-to-day context alva desperatos creates.
-						</div>
-						<div class="overlay_stitle">Follow:</div>
-						<div class="overlay_social">
-							<a href="" class="overlay_social_btn white_btn_hover"><i class="fa fa-facebook"></i> </a>
-							<a href="" class="overlay_social_btn white_btn_hover"><i class="fa fa-twitter"></i> </a>
-							<a href="" class="overlay_social_btn white_btn_hover"><i class="fa fa-google-plus"></i> </a>
-							<a href="" class="overlay_social_btn white_btn_hover"><i class="fa fa-rss"></i> </a>
-						</div>
-					</div>
-					<button class="close">
-						<i class="fa fa-times"></i>
-					</button>
-				</section>
-				<section class="overlay" id="team9">
-					<div class="wrap">
-						<div class="overlay_img">
-							<img src="img/team_11.jpg" alt="Team Member">
-						</div>
-						<div class="overlay_name">Catherin <span class="text_color">Pilcher</span></div>
-						<i class="overlay_sep background_color"></i>
-						<div class="overlay_stitle">Biography:</div>
-						<div class="overlay_p">
-							Catherin makes sculptures and drawings. With the use of appropriated materials which are borrowed from a day-to-day context alva desperatos creates.
-						</div>
-						<div class="overlay_stitle">Follow:</div>
-						<div class="overlay_social">
-							<a href="" class="overlay_social_btn white_btn_hover"><i class="fa fa-facebook"></i> </a>
-							<a href="" class="overlay_social_btn white_btn_hover"><i class="fa fa-twitter"></i> </a>
-							<a href="" class="overlay_social_btn white_btn_hover"><i class="fa fa-google-plus"></i> </a>
-							<a href="" class="overlay_social_btn white_btn_hover"><i class="fa fa-rss"></i> </a>
-						</div>
-					</div>
-					<button class="close">
-						<i class="fa fa-times"></i>
-					</button>
-				</section>
-				<section class="overlay" id="team10">
-					<div class="wrap">
-						<div class="overlay_img">
-							<img src="img/team_12.jpg" alt="Team Member">
-						</div>
-						<div class="overlay_name">Catherin <span class="text_color">Pilcher</span></div>
-						<i class="overlay_sep background_color"></i>
-						<div class="overlay_stitle">Biography:</div>
-						<div class="overlay_p">
-							Catherin makes sculptures and drawings. With the use of appropriated materials which are borrowed from a day-to-day context alva desperatos creates.
-						</div>
-						<div class="overlay_stitle">Follow:</div>
-						<div class="overlay_social">
-							<a href="" class="overlay_social_btn white_btn_hover"><i class="fa fa-facebook"></i> </a>
-							<a href="" class="overlay_social_btn white_btn_hover"><i class="fa fa-twitter"></i> </a>
-							<a href="" class="overlay_social_btn white_btn_hover"><i class="fa fa-google-plus"></i> </a>
-							<a href="" class="overlay_social_btn white_btn_hover"><i class="fa fa-rss"></i> </a>
-						</div>
-					</div>
-					<button class="close">
-						<i class="fa fa-times"></i>
-					</button>
-				</section>
+		<div class="text_und_big_title">
+				<div class="text_und_big_title">
+			<h2>
+            Les travaux que nous réalisons sont conformes aux documents
+techniques unifiés de <span class="text_color"> la série 43 ainsi que le DTU 20.12 et 60.11.</span>
+</h2>
+<h2>
+Les produits que nous utilisons bénéficient d’Avis technique validés par le <span class="text_color">
+centre scientifique et technique du bâtiment (CSTB) </span> ou de cahiers des
+charges approuvés par des bureaux de contrôle agrées.</h2>
 			</div>
-		</div>
+			</div>
 	</section>
 
 
 
 
 
-	<!-- Our Services Section
+<!-- 2 Columns Price Section
         ========================================================================= -->
-	<section id="services" class="container">
+	<section id="price" class="container">
 		<div class="big_title">
-			<div class="big_title_txt montserrat_font">You get our gold secret now</div>
-			<div class="text_und_big_title">
-				We are an award winning creative agency based in Wisconsin with a passion for helping our clients grow.
-			</div>
+			<div class="big_title_txt montserrat_font">Nos <span class="text_color">ACTIVITés</span></div>
+			<div class="text_und_big_title ">
+			<h3> Nous vous proposons une solution globale adaptée à votre <span class="text_color"> patrimoine</span> qui va vous permettre de
+suivre et de connaitre l’état de vos toitures et de mieux lutter contre <span class="text_color"> les infiltrations</span> :</h3>
+<h3>
+<ul>
+    <li>
+• En amont sur la mise en place <span class="text_color"> d’une stratégie de maintenance </span> de votre patrimoine qui se
+repartie sur deux axes :<span class="text_color"> diagnostic et entretien des toitures </span>.
+    </li>
+    <li>
+• En Aval sur <span class="text_color"> les recherches d’infiltrations </span> et <span class="text_color"> la rénovation partielle et totale </span> des toitures et
+balcons
+    </li>
+</ul>
+</h3>
+</div>
 			<div class="big_title_txt_separ background_color"></div>
 		</div>
-		<div class="section_content">
-			<div class="row">
-				<div class="col-md-3 text-center service_content_block">
-					<div class="service_content_title">Web <span class="text_color">Design</span></div>
-					<i class="fa fa-code fa-3x"></i>
-					<div class="service_content_desc">
-						Developing websites has always been our passion and main goal since we started the company. Putent laoreet et ius utroque dissentias ut.
+
+
+
+	<div class="section_content">
+			<div class="row price3_col">
+				<div class="price_3col text-center">
+					<div class="price_content_title"><span class="text_color">Entretien</span> de vos toitures  </div>
+					<h2 class="text-left ">
+                     Nous vous accompagne dans <span class="text_color"> l’entretien </span> prolonger la durée de vie de vos bâtiments en détectant...
+                    </h2>
+					<div class="price_content_action">
+						<a href="#" class="price_btn_action">lire plus</a>
 					</div>
-					<i class="service_content_sep background_color"></i>
-					<div class="service_content_listtitle">What we offer you</div>
-					<ul class="service_content_list">
-						<li>Business Card Design</li>
-						<li>infographic Design</li>
-						<li>Website Design</li>
-						<li>Logo Design</li>
-					</ul>
 				</div>
-				<div class="col-md-3 text-center service_content_block">
-					<div class="service_content_title">SEO & <span class="text_color">Marketing</span></div>
-					<i class="fa fa-bullhorn  fa-3x"></i>
-					<div class="service_content_desc">
-						Marketing, SEO and website analytics are one of our hidden expertise. Putent laoreet itroque camecasta dissentias sipartchallo
+				<div class="price_3col text-center price_middle_col">
+					<div class="price_content_title"><span class="text_color">Recherche</span> d’infiltrations</div>
+					<h2 class="text-left ">
+                   Nous vous accompagnons
+dans la détection des <span class="text_color">
+infiltrations </span> issues des
+toitures terrasses ou ...
+
+                    </h2>
+					<div class="price_content_action">
+						<a href="#" class="price_btn_action">lire plus</a>
 					</div>
-					<i class="service_content_sep background_color"></i>
-					<div class="service_content_listtitle">What we offer you</div>
-					<ul class="service_content_list">
-						<li>Business Card Design</li>
-						<li>infographic Design</li>
-						<li>Website Design</li>
-						<li>Logo Design</li>
-					</ul>
 				</div>
-				<div class="col-md-3 text-center service_content_block">
-					<div class="service_content_title">Game <span class="text_color">Design</span></div>
-					<i class="fa fa-gamepad fa-3x"></i>
-					<div class="service_content_desc">
-						Making great games with perfect elements is our passion and main goal since we started the company. Putent laoreet et ius utroque.
+				<div class="price_3col text-center">
+					<div class="price_content_title"><span class="text_color">Sécurisation</span>  des
+toitures  </div>
+					<h2 class="text-left ">
+                    Nous vous
+accompagnons
+dans la mise en
+place des
+installations
+de <span class="text_color"> sécurité </span>
+collective et
+individuelle
+...
+                    </h2>
+					<div class="price_content_action">
+						<a href="#" class="price_btn_action">lire plus</a>
 					</div>
-					<i class="service_content_sep background_color"></i>
-					<div class="service_content_listtitle">What we offer you</div>
-					<ul class="service_content_list">
-						<li>Business Card Design</li>
-						<li>infographic Design</li>
-						<li>Website Design</li>
-						<li>Logo Design</li>
-					</ul>
 				</div>
-				<div class="col-md-3 text-center service_content_block">
-					<div class="service_content_title">Server <span class="text_color">Scripting</span></div>
-					<i class="fa fa-gear fa-3x"></i>
-					<div class="service_content_desc">
-						We're not only good at designing digital goodies, we've also lots of experience in servers. Putent laoreet et ius utroque dissentias ut.
+			</div>
+		</div>
+
+        <div class="section_content">
+			<div class="row price2_col">
+
+				<div class="price_2col text-center">
+					<div class="price_content_title"> <span class="text_color"> Diagnostique</span>  de l’état du
+patrimoine  </div>
+					<h2 class="text-left ">
+                        Nous vous accompagnons
+pour mieux connaitre l’état de
+votre<span class="text_color"> patrimoine</span> afin mieux <span class="text_color">
+cibler et arbitrer les priorités ...</span>
+                    </h2>
+					<div class="price_content_action">
+						<a href="#" class="price_btn_action">lire plus</a>
 					</div>
-					<i class="service_content_sep background_color"></i>
-					<div class="service_content_listtitle">What we offer you</div>
-					<ul class="service_content_list">
-						<li>Business Card Design</li>
-						<li>infographic Design</li>
-						<li>Website Design</li>
-						<li>Logo Design</li>
-					</ul>
+				</div>
+				<div class="price_2col text-center">
+					<div class="price_content_title"><span class="text_color">Réfection</span>  des toitures terrasses</div>
+					<h2 class="text-left ">
+                   Nous vous accompagne dans
+la réfection partielle des
+toitures <span class="text_color"> terrasses </span> balcons
+afin traiter les infiltrations et
+prolonger la ...
+                    </h2>
+					<div class="price_content_action">
+					<a href="#" class="price_btn_action">lire plus</a>
+					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-
 
 
 
@@ -632,25 +401,7 @@
 	<section id="featured_section" class="text-center">
 		<div class="container">
 
-			<div class="big_title_txt_bg">
-				WE ARE <span class="text_color">FEATURED</span> ON
-			</div>
 			<div class="big_title_txt_separ_bg background_color"></div>
-
-			<div class="row featured_section_logos">
-				<div class="featured_section_logo text-center">
-					<img src="img/featured_1.png" alt="Featured here">
-				</div>
-				<div class="featured_section_logo text-center">
-					<img src="img/featured_2.png" alt="Featured here">
-				</div>
-				<div class="featured_section_logo text-center">
-					<img src="img/featured_3.png" alt="Featured here">
-				</div>
-				<div class="featured_section_logo text-center">
-					<img src="img/featured_4.png" alt="Featured here">
-				</div>
-			</div>
 
 		</div>
 	</section>
@@ -659,12 +410,9 @@
 
 
 
-
-	<!-- Our Portfolio Section
-        ========================================================================= -->
 	<section id="portfolio" class="container">
 		<div class="big_title">
-			<div class="big_title_txt montserrat_font">They trust us because we made great work</span></div>
+			<div class="big_title_txt montserrat_font">Nos réalisations</span></div>
 			<div class="text_und_big_title">
 				We are an award winning creative agency based in Wisconsin with a passion for helping our clients grow.
 			</div>
@@ -674,18 +422,18 @@
 			<div class="portfolio_navigation text-center">
 				<ul class="portfolio_navigation_list">
 					<li><a href="#" data-filter="*" class="active">All</a></li>
-					<li><a href="#" data-filter=".marketing">Marketing</a></li>
-					<li><a href="#" data-filter=".photography">Photography</a></li>
-					<li><a href="#" data-filter=".media">Media</a></li>
-					<li><a href="#" data-filter=".print">Print</a></li>
-					<li><a href="#" data-filter=".web">Web design</a></li>
+					<li><a href="#" data-filter=".marketing">Diagnostique</a></li>
+					<li><a href="#" data-filter=".photography">Entretien</a></li>
+					<li><a href="#" data-filter=".media">Recherche </a></li>
+					<li><a href="#" data-filter=".print">Réfection </a></li>
+					<li><a href="#" data-filter=".web">Sécurisation </a></li>
 				</ul>
 			</div>
 			<div class="portfolio_items">
 				<div class="portfolio_item web media print">
 					<img src="img/portfolio_1.jpg" alt="Portfolio">
 					<div class="portfolio_item_info text-center">
-						<div class="portfolio_item_title">Portfolio Page Style 1</div>
+						<div class="portfolio_item_title">Diagn , Reche , Sécu</div>
 						<i class="portfolio_item_sep background_color"></i>
 						<div class="portfolio_item_p">
 							You can shooce between 5 type of ajax portfolio pages, you just create the HTML page and associate ...
@@ -699,7 +447,7 @@
 				<div class="portfolio_item web photography">
 					<img src="img/portfolio_2.jpg" alt="Portfolio">
 					<div class="portfolio_item_info text-center">
-						<div class="portfolio_item_title">Portfolio Page Style 2</div>
+						<div class="portfolio_item_title">Sécu , Entreprise</div>
 						<i class="portfolio_item_sep background_color"></i>
 						<div class="portfolio_item_p">
 							You can shooce between 5 type of ajax portfolio pages, you just create the HTML page and associate ...
@@ -713,7 +461,7 @@
 				<div class="portfolio_item media print web">
 					<img src="img/portfolio_3.jpg" alt="Portfolio">
 					<div class="portfolio_item_info text-center">
-						<div class="portfolio_item_title">Portfolio Page Style 3</div>
+						<div class="portfolio_item_title">Rech , réfec , Sécu</div>
 						<i class="portfolio_item_sep background_color"></i>
 						<div class="portfolio_item_p">
 							You can shooce between 5 type of ajax portfolio pages, you just create the HTML page and associate ...
@@ -727,7 +475,7 @@
 				<div class="portfolio_item web marketing" alt="Portfolio">
 					<img src="img/portfolio_4.jpg">
 					<div class="portfolio_item_info text-center">
-						<div class="portfolio_item_title">Portfolio Page Style 4</div>
+						<div class="portfolio_item_title">Diagn , Sécu</div>
 						<i class="portfolio_item_sep background_color"></i>
 						<div class="portfolio_item_p">
 							You can shooce between 5 type of ajax portfolio pages, you just create the HTML page and associate ...
@@ -741,7 +489,7 @@
 				<div class="portfolio_item photohraphy media">
 					<img src="img/portfolio_5.jpg" alt="Portfolio">
 					<div class="portfolio_item_info text-center">
-						<div class="portfolio_item_title">Portfolio Page Style 5</div>
+						<div class="portfolio_item_title">Entre ,recherches</div>
 						<i class="portfolio_item_sep background_color"></i>
 						<div class="portfolio_item_p">
 							You can shooce between 5 type of ajax portfolio pages, you just create the HTML page and associate ...
@@ -755,7 +503,7 @@
 				<div class="portfolio_item print media marketing">
 					<img src="img/portfolio_6.jpg" alt="Portfolio">
 					<div class="portfolio_item_info text-center">
-						<div class="portfolio_item_title">Portfolio Image Popup</div>
+						<div class="portfolio_item_title">Réfec , recher,Diagn</div>
 						<i class="portfolio_item_sep background_color"></i>
 						<div class="portfolio_item_p">
 							You can shooce between 5 type of ajax portfolio pages, you just create the HTML page and associate ...
@@ -769,7 +517,7 @@
 				<div class="portfolio_item print web media">
 					<img src="img/portfolio_7.jpg" alt="Portfolio">
 					<div class="portfolio_item_info text-center">
-						<div class="portfolio_item_title">Youtube Video Popup</div>
+						<div class="portfolio_item_title">Réfec ,Diagn ,Rech</div>
 						<i class="portfolio_item_sep background_color"></i>
 						<div class="portfolio_item_p">
 							You can shooce between 5 type of ajax portfolio pages, you just create the HTML page and associate ...
@@ -783,7 +531,7 @@
 				<div class="portfolio_item marketing photography print">
 					<img src="img/portfolio_8.jpg" alt="Portfolio">
 					<div class="portfolio_item_info text-center">
-						<div class="portfolio_item_title">Vimeo Video Popup</div>
+						<div class="portfolio_item_title">Diagn ,Entre ,Réfec</div>
 						<i class="portfolio_item_sep background_color"></i>
 						<div class="portfolio_item_p">
 							You can shooce between 5 type of ajax portfolio pages, you just create the HTML page and associate ...
@@ -853,32 +601,8 @@
 
 
 			</div>
-		</div>
-	</section>
-
-
-
-
-
-	<!-- Our Partners Section
-        ========================================================================= -->
-	<section id="partners" class="container">
-		<div class="big_title">
-			<div class="big_title_txt montserrat_font">Big brands work with good companies</div>
-			<div class="text_und_big_title">
-				We are an award winning creative agency based in Wisconsin with a passion for helping our clients grow.
-			</div>
-			<div class="big_title_txt_separ background_color"></div>
-		</div>
-		<div class="section_content">
-			<div class="row partner_items">
-				<div class="item"><img src="img/partner_1.jpg" alt="Partner"></div>
-				<div class="item"><img src="img/partner_2.jpg" alt="Partner"></div>
-				<div class="item"><img src="img/partner_3.jpg" alt="Partner"></div>
-				<div class="item"><img src="img/partner_4.jpg" alt="Partner"></div>
-				<div class="item"><img src="img/partner_5.jpg" alt="Partner"></div>
-				<div class="item"><img src="img/partner_6.jpg" alt="Partner"></div>
-				<div class="item"><img src="img/partner_7.jpg" alt="Partner"></div>
+            	<div class="row text-center">
+				<a href="#" class="more_blog_btn background_color">Demander un devis</a>
 			</div>
 		</div>
 	</section>
@@ -887,306 +611,11 @@
 
 
 
-	<!-- Our Tetimonials Section
-        ========================================================================= -->
-	<section id="testimonials" class="container">
-		<div class="big_title">
-			<div class="big_title_txt montserrat_font">Listen to what they said, you know the truth</span></div>
-			<div class="text_und_big_title">
-				We are an award winning creative agency based in Wisconsin with a passion for helping our clients grow.
-			</div>
-			<div class="big_title_txt_separ background_color"></div>
-		</div>
-		<div class="section_content">
-			<div class="row testimonials_content">
-				<div class="col-md-4">
-					<div class="testimonials_content_top">
-						<i class="fa fa-quote-left text_color"></i>
-						<i class="testimonials_content_ribn background_color"></i>
-					</div>
-					<div class="testimonials_content_text">
-						The best one page html template I have ever seen. I used it for many prjects and many clients recommended every time this template. You purshase it for $14 but you win more this price.
-					</div>
-					<div class="testimonials_content_author">
-						<div class="testimonials_content_img">
-							<img src="img/testimonial_1.jpg" alt="Testimonial">
-						</div>
-						<div class="testimonials_content_info">
-							<div class="testimonials_content_name">Thomas Cuadra</div>
-							<div class="testimonials_content_function">Founder, PICN</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="testimonials_content_top">
-						<i class="fa fa-quote-left text_color"></i>
-						<i class="testimonials_content_ribn background_color"></i>
-					</div>
-					<div class="testimonials_content_text">
-						The best one page html template I have ever seen. I used it for many prjects and many clients recommended every time this template. You purshase it for $14 but you win more this price.
-					</div>
-					<div class="testimonials_content_author">
-						<div class="testimonials_content_img">
-							<img src="img/testimonial_2.jpg" alt="Testimonial">
-						</div>
-						<div class="testimonials_content_info">
-							<div class="testimonials_content_name">James Keys</div>
-							<div class="testimonials_content_function">UI/UX Designer</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="testimonials_content_top">
-						<i class="fa fa-quote-left text_color"></i>
-						<i class="testimonials_content_ribn background_color"></i>
-					</div>
-					<div class="testimonials_content_text">
-						The best one page html template I have ever seen. I used it for many prjects and many clients recommended every time this template. You purshase it for $14 but you win more this price.
-					</div>
-					<div class="testimonials_content_author">
-						<div class="testimonials_content_img">
-							<img src="img/testimonial_3.jpg" alt="Testimonial">
-						</div>
-						<div class="testimonials_content_info">
-							<div class="testimonials_content_name">Kristal Hennessey</div>
-							<div class="testimonials_content_function">Founder, Bear Software</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
 
 
 
 
 
-	<!-- Tweets Section
-        ========================================================================= -->
-        <section id="tweet_section" class="text-center">
-			<div class="container">
-
-				<div class="big_title_txt_bg">
-					Check what <span class="text_color">said</span> our <span class="text_color">bird</span>
-				</div>
-				<div class="big_title_txt_separ_bg background_color"></div>
-
-				<div class="tweet_bloc">
-
-					<div class="tweet_bloc_txt">
-						<div id="twitterfeed"></div>
-					</div>
-					<div class="tweet_bloc_buttom">
-						<i class="tweet_buttom_border"></i>
-					</div>
-				</div>
-			</div>
-		</section>
-
-
-
-
-
-	<!-- From The Blog Section
-        ========================================================================= -->
-	<section id="blog" class="container masonry3col">
-		<div class="big_title">
-			<div class="big_title_txt montserrat_font">Some times we share some goods</div>
-			<div class="text_und_big_title">
-				We are an award winning creative agency based in Wisconsin with a passion for helping our clients grow.
-			</div>
-			<div class="big_title_txt_separ background_color"></div>
-		</div>
-		<div class="section_content">
-			<div class="row">
-				<div class="blog-content masonry">
-					<article class="blog-post">
-						<div class="blog_content_thumbnail">
-							<img src="img/blog_1.jpg" alt="Blog Thumbnail">
-						</div>
-						<div class="blog_content_text">
-							<div class="blog_content_title">
-								<i class="fa fa-pencil text_color"></i>
-								<span><a href="blog-single.html" class="link_hoverw linkz_transition">Masonry Blog Page Style</a></span>
-							</div>
-							<div class="blog_content_p">
-								You can make many types of posts for your blog porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur adipisci quianon numquam.
-							</div>
-							<div class="blog_content_details">
-								<div class="blog_content_date">
-									DECEMBER 06, 2013
-								</div>
-								<div class="blog_content_more">
-									<a href="blog-single.html" class="link_hoverw linkz_transition">READ MORE</a>
-								</div>
-								<div class="clear"></div>
-							</div>
-						</div>
-					</article>
-					<article class="blog-post">
-						<div class="blog_content_vimeo">
-							<iframe src="//player.vimeo.com/video/92040599?title=0&amp;byline=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-						</div>
-						<div class="blog_content_text">
-							<div class="blog_content_title">
-								<i class="fa fa-video-camera text_color"></i>
-								<span><a href="blog-single.html" class="link_hoverw linkz_transition">Vimeo Responsive Video Blog</a></span>
-							</div>
-							<div class="blog_content_p">
-								You can make many types of posts for your blog porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur adipisci quianon numquam.
-							</div>
-							<div class="blog_content_details">
-								<div class="blog_content_date">
-									DECEMBER 06, 2013
-								</div>
-								<div class="blog_content_more">
-									<a href="blog-single.html" class="link_hoverw linkz_transition">READ MORE</a>
-								</div>
-								<div class="clear"></div>
-							</div>
-						</div>
-					</article>
-					<article class="blog-post">
-						<div class="blog_content_thumbnail">
-							<img src="img/blog_2.jpg" alt="Blog Thumbnail">
-						</div>
-						<div class="blog_content_text">
-							<div class="blog_content_title">
-								<i class="fa fa-play text_color"></i>
-								<span><a href="blog-single.html" class="link_hoverw linkz_transition">Video Window On Popup</a></span>
-							</div>
-							<div class="blog_content_p">
-								You can make many types of posts for your blog porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur adipisci quianon numquam.
-							</div>
-							<div class="blog_content_details">
-								<div class="blog_content_date">
-									DECEMBER 06, 2013
-								</div>
-								<div class="blog_content_more">
-									<a href="blog-single.html" class="link_hoverw linkz_transition">READ MORE</a>
-								</div>
-								<div class="clear"></div>
-							</div>
-						</div>
-					</article>
-
-					<article class="blog-post">
-						<div class="blog_content_thumbnail">
-							<div class="slider text-center">
-								<ul class="bxslider">
-								  <li><img src="img/blog_slider_1.jpg" alt="Slider"/></li>
-								  <li><img src="img/blog_slider_2.jpg" alt="Slider"/></li>
-								  <li><img src="img/blog_slider_3.jpg" alt="Slider"/></li>
-								</ul>
-							</div>
-						</div>
-						<div class="blog_content_text">
-							<div class="blog_content_title">
-								<i class="fa fa-pencil text_color"></i>
-								<span><a href="blog-single.html" class="link_hoverw linkz_transition">Post With Slider Images</a></span>
-							</div>
-							<div class="blog_content_p">
-								You can make many types of posts for your blog porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur adipisci quianon numquam.
-							</div>
-							<div class="blog_content_details">
-								<div class="blog_content_date">
-									DECEMBER 06, 2013
-								</div>
-								<div class="blog_content_more">
-									<a href="blog-single.html" class="link_hoverw linkz_transition">READ MORE</a>
-								</div>
-								<div class="clear"></div>
-							</div>
-						</div>
-					</article>
-
-
-
-					<article class="blog-post">
-						<div class="blog_content_quote">
-							This is really a great one page template to be used for many business types.
-							<div class="blog_content_quote_name">- Rachid Lajmi</div>
-						</div>
-						<div class="blog_content_text">
-							<div class="blog_content_title">
-								<i class="fa fa-quote-left  text_color"></i>
-								<span><a href="blog-single.html" class="link_hoverw linkz_transition">Quote Post Type For Blog</a></span>
-							</div>
-							<div class="blog_content_p">
-								You can make many types of posts for your blog porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur adipisci quianon numquam.
-							</div>
-							<div class="blog_content_details">
-								<div class="blog_content_date">
-									DECEMBER 06, 2013
-								</div>
-								<div class="blog_content_more">
-									<a href="blog-single.html" class="link_hoverw linkz_transition">READ MORE</a>
-								</div>
-								<div class="clear"></div>
-							</div>
-						</div>
-					</article>
-
-					<article class="blog-post">
-						<div class="blog_content_mp3">
-							<div id="jquery_jplayer_1" class="jp-jplayer"></div>
-							<div id="jp_container_1" class="jp-audio">
-								<div class="jp-type-single">
-									<div class="jp-gui jp-interface">
-										<div class="jp-controls">
-											<a href="javascript:;" class="jp-play" tabindex="1">play</a>
-											<a href="javascript:;" class="jp-pause" tabindex="1">pause</a>
-											<div class="jp-current-time"></div>
-											<div class="jp-progress">
-												<div class="jp-seek-bar">
-													<div class="jp-play-bar"></div>
-												</div>
-											</div>
-											<div class="jp-volume-bar">
-												<div class="jp-volume-bar-value"></div>
-											</div>
-
-											<a href="javascript:;" class="jp-mute" tabindex="1" title="mute">mute</a>
-											<a href="javascript:;" class="jp-unmute" tabindex="1" title="unmute">unmute</a>
-											<div class="jp-duration"></div>
-
-										</div>
-										<div class="jp-no-solution">
-											<span>Update Required</span>
-											To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="blog_content_text">
-							<div class="blog_content_title">
-								<i class="fa fa-music text_color"></i>
-								<span><a href="blog-single.html" class="link_hoverw linkz_transition">Audio MP3 Post</a></span>
-							</div>
-							<div class="blog_content_p">
-								You can make many types of mp3 files here HTM5 support for your blog porro quisquam.
-							</div>
-							<div class="blog_content_details">
-								<div class="blog_content_date">
-									DECEMBER 06, 2013
-								</div>
-								<div class="blog_content_more">
-									<a href="blog-single.html" class="link_hoverw linkz_transition">READ MORE</a>
-								</div>
-								<div class="clear"></div>
-							</div>
-						</div>
-					</article>
-
-
-				</div>
-			</div>
-			<div class="row text-center">
-				<a href="#" class="more_blog_btn background_color">Load More</a>
-			</div>
-		</div>
-	</section>
 
 
 
@@ -1197,14 +626,10 @@
 	<section id="buy_section" class="text-center">
    		<div class="container">
 
-			<div class="big_title_txt_bg">
-				Start your business, <span class="text_color">Buy this theme</span>
-			</div>
+
 			<div class="big_title_txt_separ_bg background_color"></div>
 
-			<div class="buy_section_btn">
-				<a href="#" class="buy_section_ahref">BUY NOW</a>
-			</div>
+
 		</div>
 	</section>
 
@@ -1216,16 +641,16 @@
 	========================================================================= -->
 	<section id="news" class="container">
 		<div class="big_title">
-			<div class="big_title_txt montserrat_font">Be the First to get Our News</span></div>
+			<div class="big_title_txt montserrat_font">NEWSLETTER</span></div>
 			<div class="text_und_big_title">
-				We are an award winning creative agency based in Wisconsin with a passion for helping our clients grow.
-			</div>
+			Restez à l'écoute de nos dernières nouveautés
+            </div>
 			<div class="big_title_txt_separ background_color"></div>
 		</div>
 		<div class="section_content text-center">
 			<form name="subscribe_form" method="post" action="" class="subscribe_form">
-				<input type="email" class="subscribe_form_input" name="subscribe" id="subscribe" placeholder="Your email here.." required/>
-				<input type="submit" value="Subscribe" class="subscribe_btn action_btn background_color"/>
+				<input type="email" class="subscribe_form_input" name="subscribe" id="subscribe" placeholder="Votre email ici.." required/>
+				<input type="submit" value="Souscrire" class="subscribe_btn action_btn background_color"/>
 			</form>
 		</div>
 	</section>
@@ -1239,7 +664,7 @@
         ========================================================================= -->
 	<section id="contact" class="container">
 		<div class="big_title">
-			<div class="big_title_txt montserrat_font">Contact <span class="text_color">Us</span></div>
+			<div class="big_title_txt montserrat_font">Contactez <span class="text_color">Nous</span></div>
 			<div class="text_und_big_title">
 				We are an award winning creative agency based in Wisconsin with a passion for helping our clients grow.
 			</div>
@@ -1325,11 +750,16 @@
 				<div class="contact2_social text-center">
 					<a href="" class="footer4_social_btn link_hoverb"><i class="fa fa-facebook"></i> - facebook</a>
 					<a href="" class="footer4_social_btn link_hoverb"><i class="fa fa-twitter"></i> - twitter</a>
-					<a href="" class="footer4_social_btn link_hoverb"><i class="fa fa-google-plus"></i> - google+</a>
-					<a href="" class="footer4_social_btn link_hoverb"><i class="fa fa-rss"></i> - rss feeds</a>
+					<a href="" class="footer4_social_btn link_hoverb"><i class="fa fa-google"></i> - google+</a>
+					<a href="" class="footer4_social_btn link_hoverb"><i class="fa fa-whatsapp"></i> - whatsapp</a>
 				</div>
+
 			</div>
-		</div>
+
+           	</div>
+  <div class=" text-center mb-0">
+            <p>© Copyright 2021 | Dev <a href="#" class="text_color">NESF</a>& <a class="text_color" href="#">Diana</a></p>
+        </div>
 	</footer>
 
 
