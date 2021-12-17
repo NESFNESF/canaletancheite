@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>SERTIN - One Page Responsive parallax HTML Template</title>
+    <title>L'entreprise CANAL ETANCHEITE met ses services à votre disposition pour tous vos problèmes d'étancheités</title>
 
     <!-- CSS Files
         ========================================================================= -->
@@ -71,7 +71,7 @@
 
 <div class="fullbg_bigtxt">SOLUTION ANTI-INFILTRATION TOITURE ETANCHEITE</div>
 			<div class="fullbg_smalltxt">NOUS METTONS TOUT EN OEUVRE POUR METTRE NOTRE SAVOIR FAIRE AU SERVICE DE VOTRE CONFORT</div>
-			<div class="text_color fullgb_extratxt_span">CE</div><div class="fullgb_extratxt">CANAL ETANCHEITE</div>
+			<div class="text_color fullgb_extratxt_span"><img class="img_logo" src="img/logo.png" alt="SERTIN"></div><div class="fullgb_extratxt">CANAL ETANCHEITE</div>
 
 					</div>
 
@@ -99,20 +99,20 @@
 
 			    <!-- Collect the nav links, forms, and other content for toggling -->
 			     <div class="menu_dark2_logo_center">
-			      	<a class="navbar-brand" href="#"><img src="img/logo.png" alt="SERTIN"></a>
+			      	<a class="navbar-brand" href="{{ route('accueil') }}"></a>
 			      </div>
 			    <div class="collapse navbar-collapse menu_dark2_navbar" id="bs-example-navbar-collapse-1">
 			      <ul class="nav navbar-nav navbar-left">
-			      	<li><a href="index">Accueil</a></li>
-			        <li><a href="index.html#team">Expérience</a></li>
+			      	<li><a href="{{ route('accueil') }}">Accueil</a></li>
+			        <li><a href="#">Expérience</a></li>
 			         <li class="dropdown">
-			          <a href="index.html#" class="dropdown-toggle" data-toggle="dropdown">Activités <b class="caret"></b></a>
+			          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Activités <b class="caret"></b></a>
 			          <ul class="dropdown-menu">
-			            <li><a href="#">Diagnostic de l’état du patrimoine</a></li>
-			            <li><a href="#">Entretien toitures</a></li>
-			            <li><a href="#">Recherche d’infiltrations</a></li>
-                         <li><a href="#">Réfection des toitures terrasses</a></li>
-			            <li><a href="#">Sécurisation des toitures</a></li>
+			            <li><a href="{{ route('activite_1') }}">Diagnostic de l’état du patrimoine</a></li>
+			            <li><a href="{{ route('activite_2') }}">Entretien toitures</a></li>
+			            <li><a href="{{ route('activite_3') }}">Recherche d’infiltrations</a></li>
+                         <li><a href="{{ route('activite_4') }}">Réfection des toitures terrasses</a></li>
+			            <li><a href="{{ route('activite_5') }}">Sécurisation des toitures</a></li>
 			          </ul>
 			        </li>
 			      </ul>
@@ -177,7 +177,7 @@ murs</strong> </li><br>
 
 
                         <div class="company_btn">
-							<a href="#" class="content_btn background_color">Demander un devis</a>
+							<a href="{{ route('devis') }}" class="content_btn background_color">Demander un devis</a>
 						</div>
 					</div>
 				</div>
@@ -186,6 +186,7 @@ murs</strong> </li><br>
 						<ul class="bxslider">
 							<li><img src="img/about_s3.jpg" class="img-responsive" /></li>
 							<li><img src="img/about_s2.jpg" class="img-responsive" /></li>
+                            <li><img src="img/about_s2.jpg" class="img-responsive" /></li>
 						</ul>
 					</div>
 				</div>
@@ -208,20 +209,32 @@ murs</strong> </li><br>
 				<div class="col-md-6 company_content_img_all">
 					<div class="row">
 						<div class="company_img_block company_btn1">
-							<img src="img/company_1.jpg" alt="Consulting" class="img_border">
+                            <a href="#">
+                                <img src="img/company_1.jpg" alt="Consulting" class="img_border">
 							<div class="company_img_desc">Diagnostic de votre patrimoine</div>
+                            </a>
+							
 						</div>
 						<div class="company_img_block company_btn2">
-							<img src="img/company_2.jpg" alt="Photography" class="img_border">
+                            <a href="#">
+<img src="img/company_2.jpg" alt="Photography" class="img_border">
 							<div class="company_img_desc">Entretien des toitures terrasses</div>
+                            </a>
+							
 						</div>
 						<div class="company_img_block company_btn3">
-							<img src="img/company_3.jpg" alt="Web Design" class="img_border">
+                             <a href="#">
+<img src="img/company_3.jpg" alt="Web Design" class="img_border">
 							<div class="company_img_desc">Recherche d’infiltrations sur plusieurs techniques</div>
+                            </a>
+							
 						</div>
 						<div class="company_img_block company_btn4">
-							<img src="img/company_4.jpg" alt="Advertising" class="img_border">
+                             <a href="#">
+<img src="img/company_4.jpg" alt="Advertising" class="img_border">
 							<div class="company_img_desc">Réfection partielle et totale</div>
+                            </a>
+							
 						</div>
 					</div>
 				</div>
@@ -233,7 +246,7 @@ murs</strong> </li><br>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 						<p>Sed ut perspiciatis unde Sorcimenia omnis iste natus irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat cotessa primastera nulla error sit voluptatem accusantium doloremque laudantium.</p>
 						<div class="company_btn">
-							<a href="#" class="content_btn background_color">Demander un devis</a>
+							<a href="{{ route('devis') }}" class="content_btn background_color">Demander un devis</a>
 						</div>
 					</div>
 
@@ -263,7 +276,7 @@ murs</strong> </li><br>
         ========================================================================= -->
 	<section id="team" class="container">
 		<div class="big_title">
-			<div class="big_title_txt montserrat_font">QAULITé</div>
+			<div class="big_title_txt montserrat_font">QUALITé</div>
             <div class="text_und_big_title">
 
 			</div>
@@ -289,7 +302,7 @@ charges approuvés par des bureaux de contrôle agrées.</h2>
 
 <!-- 2 Columns Price Section
         ========================================================================= -->
-	<section id="price" class="container">
+	<section id="price" id="activite" class="container">
 		<div class="big_title">
 			<div class="big_title_txt montserrat_font">Nos <span class="text_color">ACTIVITés</span></div>
 			<div class="text_und_big_title ">
@@ -321,7 +334,7 @@ balcons
                      Nous vous accompagne dans <span class="text_color"> l’entretien </span> prolonger la durée de vie de vos bâtiments en détectant...
                     </h2>
 					<div class="price_content_action">
-						<a href="#" class="price_btn_action">lire plus</a>
+						<a href="{{ route('activite_2') }}" class="price_btn_action">lire plus</a>
 					</div>
 				</div>
 				<div class="price_3col text-center price_middle_col">
@@ -334,7 +347,7 @@ toitures terrasses ou ...
 
                     </h2>
 					<div class="price_content_action">
-						<a href="#" class="price_btn_action">lire plus</a>
+						<a href="{{ route('activite_3') }}" class="price_btn_action">lire plus</a>
 					</div>
 				</div>
 				<div class="price_3col text-center">
@@ -352,7 +365,7 @@ individuelle
 ...
                     </h2>
 					<div class="price_content_action">
-						<a href="#" class="price_btn_action">lire plus</a>
+						<a href="{{ route('activite_5') }}" class="price_btn_action">lire plus</a>
 					</div>
 				</div>
 			</div>
@@ -371,7 +384,7 @@ votre<span class="text_color"> patrimoine</span> afin mieux <span class="text_co
 cibler et arbitrer les priorités ...</span>
                     </h2>
 					<div class="price_content_action">
-						<a href="#" class="price_btn_action">lire plus</a>
+						<a href="{{ route('activite_1') }}" class="price_btn_action">lire plus</a>
 					</div>
 				</div>
 				<div class="price_2col text-center">
@@ -384,7 +397,7 @@ afin traiter les infiltrations et
 prolonger la ...
                     </h2>
 					<div class="price_content_action">
-					<a href="#" class="price_btn_action">lire plus</a>
+					<a href="{{ route('activite_4') }}" class="price_btn_action">lire plus</a>
 					</div>
 				</div>
 			</div>
@@ -400,7 +413,9 @@ prolonger la ...
         ========================================================================= -->
 	<section id="featured_section" class="text-center">
 		<div class="container">
-
+<div class="big_title_txt_bg">
+			NOUS VOUS <span class="text_color">GARANTISSONS</span> UNE TOTALE <span class="text_color">SATISFACTION</span>
+		</div>
 			<div class="big_title_txt_separ_bg background_color"></div>
 
 		</div>
@@ -602,7 +617,7 @@ prolonger la ...
 
 			</div>
             	<div class="row text-center">
-				<a href="#" class="more_blog_btn background_color">Demander un devis</a>
+				<a href="{{ route('devis') }}" class="more_blog_btn background_color">Demander un devis</a>
 			</div>
 		</div>
 	</section>
@@ -626,7 +641,9 @@ prolonger la ...
 	<section id="buy_section" class="text-center">
    		<div class="container">
 
-
+<div class="big_title_txt_bg">
+			NOUS SOMMES LA <span class="text_color">POUR VOUS</span>
+		</div>
 			<div class="big_title_txt_separ_bg background_color"></div>
 
 
@@ -666,7 +683,7 @@ prolonger la ...
 		<div class="big_title">
 			<div class="big_title_txt montserrat_font">Contactez <span class="text_color">Nous</span></div>
 			<div class="text_und_big_title">
-				We are an award winning creative agency based in Wisconsin with a passion for helping our clients grow.
+				Nous sommes à l'écoute de vos préocupations
 			</div>
 			<div class="big_title_txt_separ background_color"></div>
 		</div>
@@ -674,15 +691,13 @@ prolonger la ...
 			<div class="row">
 				<div class="col-md-6 contact_content_left">
 					<div class="content_big_title">
-						Send us <span class="text_color">a message</span>
+						En quoi pouvons nous <span class="text_color">vos aider ? </span>
 					</div>
-					<div class="contact_small_text">
-						Lorem ipsum dolor sit consectetur adipisicing elit eiusmod tempor incididunt.
-					</div>
+
 					<form name="contact_form" method="post" action="" class="contact_form">
 						<div class="row">
 							<div class="col-md-6">
-								<input type="text" class="conact_form_name" name="name" id="name" placeholder="Name" required/>
+								<input type="text" class="conact_form_name" name="name" id="name" placeholder="nom" required/>
 							</div>
 							<div class="col-md-6">
 								<input type="email" class="conact_form_email" name="email" id="email" placeholder="Email" required/>
@@ -692,17 +707,17 @@ prolonger la ...
 							<textarea name="message" id="message" placeholder="Message" class="contact_form_message" required></textarea>
 						</div>
 						<div class="contact_form_btn_block">
-							<input type="submit" value="Send" class="contact_form_bnt  contact_btn"/>
-							<input type="reset" value="Reset" class="contact_form_bnt "/>
+							<input type="submit" value="Envoyer" class="contact_form_bnt  contact_btn"/>
+							
 						</div>
 					</form>
 				</div>
 				<div class="col-md-4 col-md-offset-2">
 					<div class="content_big_title">
-						Get in <span class="text_color">touch</span>
+						Entrez en contact <span class="text_color">Avec nous ?</span>
 					</div>
 					<div class="contact_small_text">
-						You can also contact us at
+						Vous pouvez nous contacter au
 					</div>
 					<div class="contact_right_details">
 						<div class="">
@@ -711,20 +726,20 @@ prolonger la ...
 						</div>
 						<div class="">
 							<i class="fa fa-phone text_color"></i>
-							<span>712-274-6481</span>
+							<span>+33 6 51 19 13 76</span>
 						</div>
 						<div class="">
 							<i class="fa fa-envelope text_color"></i>
-							<span><a href="#" class="link_hoverw">support@yourwebsite.com</a></span>
+							<span><a href="canaletancheite@gmail.com" class="link_hoverw">canaletancheite@gmail.com</a></span>
 						</div>
 						<div class="">
 							<i class="fa fa-globe text_color"></i>
-							<span><a href="#" class="link_hoverw">www.website.com</a></span>
+							<span><a href="www.canaletancheite.com" class="link_hoverw">www.canaletancheite.com</a></span>
 						</div>
 					</div>
 
 					<div class="content_big_title">
-						Follow <span class="text_color">Us</span>
+						Suivez <span class="text_color">Nous</span>
 					</div>
 					<div class="follow_us">
 						<a href="" class="follow_us_btn "><i class="fa fa-facebook"></i> </a>
@@ -745,23 +760,24 @@ prolonger la ...
 	<footer>
 		<div class="footer4">
 			<div class="container text-center">
-				<img src="img/footer4_logo.png" alt="SERTIN">
+				<img class="img_logo" src="img/logo.png" alt="SERTIN">
 				<p>Lorem ipsum dolor sit amet, consectetur minim veniam adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna das martou lokra walla loula elli yji soktras aliqua. Ut enim ad , quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commod</p>
-				<div class="contact2_social text-center">
+			<div class="contact2_social text-center">
 					<a href="" class="footer4_social_btn link_hoverb"><i class="fa fa-facebook"></i> - facebook</a>
 					<a href="" class="footer4_social_btn link_hoverb"><i class="fa fa-twitter"></i> - twitter</a>
-					<a href="" class="footer4_social_btn link_hoverb"><i class="fa fa-google"></i> - google+</a>
+					<a href="" class="footer4_social_btn link_hoverb"><i class="fa fa-google"></i> - google</a>
 					<a href="" class="footer4_social_btn link_hoverb"><i class="fa fa-whatsapp"></i> - whatsapp</a>
 				</div>
-
 			</div>
-
-           	</div>
-  <div class=" text-center mb-0">
-            <p>© Copyright 2021 | Dev <a href="#" class="text_color">NESF</a>& <a class="text_color" href="#">Diana</a></p>
-        </div>
+		</div>
 	</footer>
 
+
+    <footer>
+		<div class="footer">
+			Copyright &copy; | Dev <a href="nganefabrice693@gmail.com" class="text_color">NESF</a>& <a class="text_color" href="#">Diana</a>
+		</div>
+	</footer>
 
 
 
